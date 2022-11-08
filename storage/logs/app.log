@@ -1,2 +1,5 @@
 2022/10/31 16:57:01 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1667206621672131000}
 2022/11/01 15:06:43 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1667286403176572800}
+2022/11/03 14:53:23 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1667458403815006800}
+2022/11/03 16:07:53 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1667462873276821300}
+2022/11/03 16:24:56 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: ","time":1667463896438288500}

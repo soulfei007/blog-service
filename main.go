@@ -33,7 +33,7 @@ func init() {
 }
 
 func main() {
-	global.Logger.Infof("%s: go-programming-tour-book/%s", "eddycjy", "blog-service")
+
 	gin.SetMode(global.ServerSetting.RunMode)
 	router := routers.NewRouter()
 	s := &http.Server{
