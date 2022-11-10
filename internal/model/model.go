@@ -4,6 +4,7 @@ import (
 	"blog-service/global"
 	"blog-service/pkg/setting"
 	"fmt"
+	"log"
 	"time"
 
 	"github.com/jinzhu/gorm"
@@ -32,6 +33,8 @@ func NewDBEngine(databaseSetting *setting.DatabaseSettingS) (*gorm.DB, error) {
 	))
 
 	if err != nil {
+		log.Fatalln("databaseSetting = ", databaseSetting)
+
 		return nil, err
 	}
 

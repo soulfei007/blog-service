@@ -15,6 +15,7 @@ type ValidError struct {
 
 type ValidErrors []*ValidError
 
+//
 func (v *ValidError) Error() string {
 	return v.Message
 }
@@ -35,6 +36,7 @@ func (v ValidErrors) Error() string {
 func BindAndValid(c *gin.Context, v interface{}) (bool, ValidErrors) {
 	var errs ValidErrors
 	err := c.ShouldBind(v)
+
 	if err != nil {
 		v := c.Value("trans")
 		trans, _ := v.(ut.Translator)
@@ -54,4 +56,5 @@ func BindAndValid(c *gin.Context, v interface{}) (bool, ValidErrors) {
 	}
 
 	return true, nil
+
 }

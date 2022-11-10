@@ -3,3 +3,20 @@
 2022/11/03 14:53:23 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1667458403815006800}
 2022/11/03 16:07:53 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"eddycjy: go-programming-tour-book/blog-service","time":1667462873276821300}
 2022/11/03 16:24:56 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: ","time":1667463896438288500}
+2022/11/09 16:06:02 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: Name为必填字段","time":1667981162824131100}
+2022/11/09 16:07:44 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: Name长度必须至少为3个字符","time":1667981264687573200}
+2022/11/09 16:43:56 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: Name长度必须至少为3个字符","time":1667983436919610700}
+2022/11/10 11:31:59 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: Name为必填字段,CreatedBy为必填字段","time":1668051119713744400}
+2022/11/10 16:16:16 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: Name长度必须至少为3个字符,State为必填字段,ModifiedBy为必填字段","time":1668068176267727400}
+2022/11/10 16:31:47 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: State为必填字段,ModifiedBy为必填字段,Name长度必须至少为3个字符","time":1668069107232164600}
+2022/11/10 16:31:49 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: Name长度必须至少为3个字符,State为必填字段,ModifiedBy为必填字段","time":1668069109704030900}
+2022/11/10 16:32:00 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: Name长度必须至少为3个字符,State为必填字段","time":1668069120814047600}
+2022/11/10 16:34:10 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: State为必填字段,Name长度必须至少为3个字符","time":1668069250078770200}
+2022/11/10 16:35:07 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: Name长度必须至少为3个字符,State为必填字段","time":1668069307839817400}
+2022/11/10 16:35:42 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: State为必填字段","time":1668069342447689400}
+2022/11/10 16:46:40 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: State为必填字段","time":1668070000010971300}
+2022/11/10 16:47:36 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: State为必填字段","time":1668070056607987300}
+2022/11/10 16:48:10 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: State为必填字段","time":1668070090605888200}
+2022/11/10 16:50:37 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: State为必填字段","time":1668070237223679700}
+2022/11/10 16:50:41 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: State为必填字段","time":1668070241308888900}
+2022/11/10 16:50:42 {"callers":["E:/blog-service/main.go: 29 main.init.0"],"level":"info","message":"app.BindAndValid errs: State为必填字段","time":1668070242310561800}

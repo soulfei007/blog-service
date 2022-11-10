@@ -84,7 +84,7 @@ func setupDBEngine() error {
 	var err error
 	global.DBEngine, err = model.NewDBEngine(global.DatabaseSetting)
 	if err != nil {
-		return nil
+		return err
 	}
 	return nil
 }
